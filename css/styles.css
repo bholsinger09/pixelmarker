@@ -17,13 +17,13 @@ h2:first-of-type {
     margin-top: 0.5em;
 }
 
-.pixelCanvas,
+#pixelCanvas,
 tr,
 td {
     border: 1px solid black;
 }
 
-.pixelCanvas {
+#pixelCanvas {
     border-collapse: collapse;
     margin: 0 auto;
     box-shadow: 4px 4px rgb(190,190,190);
@@ -52,9 +52,9 @@ td:hover{
     transition: background-color 1s ease-in;
 }
 
-.inputHeight {
+#inputHeight {
     width: 6em;
 }
-.inputWidth {
+#inputWidth {
     width: 6em;
 }
